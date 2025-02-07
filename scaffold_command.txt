@@ -1,0 +1,1 @@
+dotnet ef dbcontext scaffold "Server=localhost;uid=sa;pwd=123456;database=TestViewDb" Microsoft.EntityFrameworkCore.SqlServer --data-annotations -o Models -c AppDbContext
